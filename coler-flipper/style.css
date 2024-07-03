@@ -9,9 +9,53 @@ html {
   font-family: sans-serif;
 }
 
-#body {
+.header {
   width: 100vw;
-  height: 100vh;
+  height: 10vh;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(83, 83, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: rgb(67, 127, 129);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.content {
+  width: 100vw;
+  height: 90vh;
+  flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
