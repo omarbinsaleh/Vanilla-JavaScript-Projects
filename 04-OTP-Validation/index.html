@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Document</title>
+   <link rel="stylesheet" href="styles/main.css">
+   <script type="module" src="./script/main.js" defer></script>
+</head>
+
+<body>
+   <main class="parent-container">
+      <h1 class="title">Enter OTP</h1>
+      <form class="otp-boxes-container">
+         <input type="text" name="otp-box" id="otp-box-1" class="otp-box" maxlength="1" title="OTP Box"/>
+         <input type="text" name="otp-box" id="otp-box-2" class="otp-box" maxlength="1" title="OTP Box"/>
+         <input type="text" name="otp-box" id="otp-box-3" class="otp-box" maxlength="1" title="OTP Box"/>
+         <input type="text" name="otp-box" id="otp-box-4" class="otp-box" maxlength="1" title="OTP Box"/>
+         <input type="submit" value="Submit">
+      </form>
+
+      <p class="generated-otp">Your OTP is Loading...</p>
+      <p class="otp-validation-message"></p>
+   </main>
+</body>
+
+</html>
